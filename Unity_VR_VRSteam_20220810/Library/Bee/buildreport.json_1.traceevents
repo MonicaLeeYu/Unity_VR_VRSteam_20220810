@@ -1,0 +1,717 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1660113406261969, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113406263591, "dur": 34603, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113406298534, "dur": 46200, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113406344767, "dur": 594839, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113406939609, "dur": 5000495, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113411940123, "dur": 10363, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113426772600, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113426772974, "dur": 10254, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113426783230, "dur": 31544, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113426814777, "dur": 949493, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113427764273, "dur": 849566, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113428613840, "dur": 10694, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113428625126, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1660113427348276, "dur": 401828, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427349656, "dur": 63117, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427728551, "dur": 5569, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427734124, "dur": 15970, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427735144, "dur": 14217, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427756450, "dur": 1976, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113427755285, "dur": 3178, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113428625253, "dur": 132, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660113427819743, "dur":984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113427820736, "dur":101, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660113427820891, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660113427820914, "dur":1356, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660113427822299, "dur":816, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113427823115, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428585635, "dur":1293, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428586928, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587014, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587019, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587031, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587034, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587043, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587045, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587054, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587056, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587065, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587067, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587077, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587079, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587090, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587092, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587100, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587102, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587113, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587116, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587125, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587127, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587136, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587138, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587148, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587150, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587159, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587162, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587172, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587174, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587183, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587185, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587194, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587198, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587208, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587211, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587221, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587223, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587231, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587233, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587242, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587245, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587253, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587255, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587263, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587266, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587274, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587276, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587285, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587287, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587295, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587297, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587307, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587309, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587318, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587320, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587327, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587329, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587337, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587339, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587347, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587349, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587358, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587360, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587369, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587385, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428587482, "dur":1482, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660113427821767, "dur":1357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113427823124, "dur":4543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113427827669, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660113427828222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113427830271, "dur":504800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660113428335132, "dur":250520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113427821961, "dur":1194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113427823155, "dur":4538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113427827694, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1660113427828115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113427829839, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1660113427834582, "dur":126592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113427961183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113427962794, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113427965269, "dur":83164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428048442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113428048457, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428049363, "dur":55201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428104572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113428104585, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428105833, "dur":186026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428291867, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113428291880, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113428293010, "dur":292710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113427822834, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113427823256, "dur":4478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113427827735, "dur":133550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113427961293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113427962217, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113427965008, "dur":78735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428043750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113428043763, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428044490, "dur":59970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428104471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113428104491, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428105814, "dur":94563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428200387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113428200407, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428201475, "dur":230074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428431558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113428431573, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113428434399, "dur":151292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113427821830, "dur":1302, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113427823132, "dur":4498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113427827692, "dur":35290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1660113427862990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113427863017, "dur":99166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1660113427962249, "dur":88088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428050344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113428050356, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428051218, "dur":61856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428113081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113428113093, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428113958, "dur":96685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428210653, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113428210669, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428211700, "dur":174862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428386570, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113428386582, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113428388322, "dur":197344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113427821947, "dur":1200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113427823147, "dur":4527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113427827713, "dur":23345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1660113427851065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113427851142, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1660113427851935, "dur":57279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113427909222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113427961503, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113427963673, "dur":69389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428033066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113428033075, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428033780, "dur":98329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428132114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113428132125, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428133205, "dur":54408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428187621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113428187635, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428188441, "dur":138935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428327385, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113428327400, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113428328431, "dur":257249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113427822018, "dur":1145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113427823164, "dur":4474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113427827640, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660113427827903, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113427830264, "dur":499420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660113428329720, "dur":255982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113427823113, "dur":5, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113427823118, "dur":4483, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113427827626, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1660113427827634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113427828940, "dur":277, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1660113427829222, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1660113427829255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113427829421, "dur":25474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1660113427854898, "dur":146063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428000972, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428000991, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428001839, "dur":79942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428081791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428081807, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428082539, "dur":70038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428152585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428152600, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428153794, "dur":2769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428156572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428156590, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428157431, "dur":1583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428159024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428159078, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428160061, "dur":59580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428219685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428219703, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428220627, "dur":135936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428356573, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113428356588, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113428357727, "dur":228008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113427822137, "dur":1040, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113427823177, "dur":4534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113427827711, "dur":146485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1660113427974202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113427974213, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1660113427976088, "dur":60996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428037091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113428037107, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428037908, "dur":69172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428107086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113428107097, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428107734, "dur":76417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428184161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113428184176, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428185394, "dur":62840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428248243, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113428248300, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428249484, "dur":332407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428581897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113428581909, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113428585548, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1660113428585551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113427822189, "dur":996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113427823185, "dur":4440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113427827626, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1660113427828234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113427830165, "dur":132010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1660113427962239, "dur":68780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428031030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113428031045, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428032000, "dur":104855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428136861, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113428136877, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428137788, "dur":57391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428195189, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113428195204, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428195981, "dur":243076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428439064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113428439073, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113428441533, "dur":144200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113427822240, "dur":951, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113427823191, "dur":4461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113427827655, "dur":28911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1660113427856573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113427856628, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1660113427857281, "dur":104246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113427961536, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113427962641, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113427965321, "dur":108309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428073636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113428073647, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428074283, "dur":57958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428132281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113428132291, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428133114, "dur":50781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428183903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113428183918, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428185178, "dur":117133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428302316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113428302327, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113428303182, "dur":282466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113427823460, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113427823460, "dur":4240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113427827704, "dur":464059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113428291773, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113428291832, "dur":8346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113428300237, "dur":285489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113427822364, "dur":840, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113427823204, "dur":4485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113427827693, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1660113427828373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113427829688, "dur":26215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1660113427855951, "dur":105562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113427961520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113427962394, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113427964957, "dur":73472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428038436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113428038448, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428039123, "dur":83407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428122538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113428122549, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428123117, "dur":104800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428227929, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113428227947, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428228890, "dur":141510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428370407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113428370419, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113428371650, "dur":214049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113427822418, "dur":792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113427823211, "dur":4434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113427827649, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1660113427828380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113427830545, "dur":19669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1660113427850253, "dur":47949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113427898212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113427961664, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113427964168, "dur":96214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428060386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113428060396, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428061199, "dur":75077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428136282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113428136292, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428137361, "dur":72339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428209713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113428209732, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428210608, "dur":70458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428281073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113428281085, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113428281817, "dur":303855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113427822590, "dur":639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113427823229, "dur":4477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113427827707, "dur":307296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113428135009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113428135017, "dur":28011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113428163109, "dur":298516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113428461632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113428461643, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113428464253, "dur":121429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113427822482, "dur":734, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113427823217, "dur":4521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113427827739, "dur":133702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113427961447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113427962191, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113427964849, "dur":97784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428062641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113428062653, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428063379, "dur":60421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428123807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113428123819, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428124515, "dur":111000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428235524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113428235542, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428236518, "dur":68361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428304883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113428304896, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113428305632, "dur":280071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113427822535, "dur":687, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113427823223, "dur":4531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113427827755, "dur":133756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113427961517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113427962443, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113427965175, "dur":70578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428035760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428035772, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428036461, "dur":72378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428108846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428108857, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428109688, "dur":148383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428258079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428258122, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113428259177, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428259311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428259630, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428260739, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428260885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428260898, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428261823, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428261984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428261996, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428263076, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428263225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428263236, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428263960, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428264101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428264112, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428265142, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428265268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428265279, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428266022, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":16, "ts":1660113428266044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428266052, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":16, "ts":1660113428267920, "dur":2807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428270733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428270742, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1660113428272383, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1660113428272520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113428272530, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1660113428273230, "dur":312399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113427822665, "dur":572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113427823237, "dur":4522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113427827760, "dur":78059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113427905826, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113427961484, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113427963923, "dur":87703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428051633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428051645, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428052439, "dur":61380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428113824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428113859, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428114439, "dur":136780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428251227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428251243, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428252362, "dur":1066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428253434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428253806, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428255335, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428256019, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428256067, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":17, "ts":1660113428257137, "dur":13475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":17, "ts":1660113428270618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113428273595, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":17, "ts":1660113428274859, "dur":310774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113427822709, "dur":533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113427823243, "dur":4381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113427827627, "dur":31537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1660113427859168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113427859209, "dur":103198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1660113427962487, "dur":98406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428060900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113428060912, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428061667, "dur":71740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428133413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113428133425, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428134115, "dur":85956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428220079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113428220090, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428220836, "dur":62158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428283001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113428283013, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113428283725, "dur":301910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113427822774, "dur":475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113427823249, "dur":4446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113427827703, "dur":134376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113427962086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113427962413, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113427964315, "dur":107187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428071509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113428071522, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428072395, "dur":175715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428248121, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113428248139, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428250695, "dur":233893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428484619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113428484630, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113428485454, "dur":100224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113427821892, "dur":1248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113427823140, "dur":4542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113427827686, "dur":32216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1660113427859907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113427859925, "dur":102085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1660113427962066, "dur":70872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428032944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428032955, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428033814, "dur":85965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428119787, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428119801, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428120424, "dur":142424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428262854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428262864, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1660113428264352, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":20, "ts":1660113428264504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428264515, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":20, "ts":1660113428267207, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":20, "ts":1660113428267345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428267353, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":20, "ts":1660113428269576, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1660113428269600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428269610, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1660113428270376, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/level0" }}
+,{ "pid":12345, "tid":20, "ts":1660113428270403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428270412, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/level0" }}
+,{ "pid":12345, "tid":20, "ts":1660113428271939, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1660113428271965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113428271973, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1660113428273088, "dur":312539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113427822896, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113427823265, "dur":4405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113427827676, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":21, "ts":1660113427828301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113427830397, "dur":27584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":21, "ts":1660113427858034, "dur":39643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113427897691, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113427961555, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113427964174, "dur":143974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428108153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113428108162, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428108936, "dur":64890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428173836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113428173851, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428174614, "dur":215677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428390298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113428390310, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113428391376, "dur":194313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113427822950, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113427823272, "dur":4472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113427827744, "dur":58436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113427886197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113427961837, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113427964758, "dur":108481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428073246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113428073261, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428074142, "dur":60189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428134336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113428134343, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428135125, "dur":4718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428139889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113428139908, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428140739, "dur":82617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428223365, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113428223381, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428224325, "dur":114880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428339214, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113428339265, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113428340497, "dur":245142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113427823003, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113427823279, "dur":4399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113427827680, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1660113427828496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113427830209, "dur":131946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1660113427962227, "dur":120665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428082900, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113428082914, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428083834, "dur":93467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428177310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113428177324, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428178172, "dur":122944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428301124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113428301168, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113428302206, "dur":283430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113427823054, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113427823285, "dur":4332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113427827627, "dur":77351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":24, "ts":1660113427905016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113427961784, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":24, "ts":1660113427963028, "dur":229525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428192562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428192576, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428193598, "dur":59940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428253548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428253562, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428254558, "dur":2579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428257145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428257159, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113428259599, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428259764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428259822, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428260620, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428260782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428260793, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428261803, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428261932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428261943, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428263146, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428263799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428263812, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428265250, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428265356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428265365, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113428267149, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":24, "ts":1660113428267190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428267210, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":24, "ts":1660113428271202, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":24, "ts":1660113428271227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113428271235, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":24, "ts":1660113428273934, "dur":311691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113427822070, "dur":1100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113427823171, "dur":4515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113427827688, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":25, "ts":1660113427828489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113427830144, "dur":509950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":25, "ts":1660113428340148, "dur":245581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113427823163, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113427823165, "dur":4582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113427827748, "dur":65892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113427893654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113427961992, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113427964911, "dur":93839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428058757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113428058770, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428059609, "dur":69138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428128756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113428128772, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428129721, "dur":271322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428401049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113428401059, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113428401972, "dur":183744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113427823234, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113427823235, "dur":4479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113427827751, "dur":72834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810.exe" }}
+,{ "pid":12345, "tid":27, "ts":1660113427900595, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113427900610, "dur":62177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810.exe" }}
+,{ "pid":12345, "tid":27, "ts":1660113427962813, "dur":195861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428158682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428158700, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428161034, "dur":1974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428163015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428163030, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428163755, "dur":96086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428259847, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428259859, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113428260647, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428260789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428260799, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428261731, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428261859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428261871, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428263124, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428263914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428263927, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":27, "ts":1660113428265456, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":27, "ts":1660113428265510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428265538, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":27, "ts":1660113428266919, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":27, "ts":1660113428266943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113428266951, "dur":7797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":27, "ts":1660113428274775, "dur":310874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113427823290, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113427823291, "dur":4429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113427827722, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":28, "ts":1660113427828119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113427829782, "dur":146778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":28, "ts":1660113427976626, "dur":65191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428041823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113428041834, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428042658, "dur":132771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428175436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113428175481, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428176465, "dur":212377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428388849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113428388862, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113428390227, "dur":195404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113427823352, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113427823352, "dur":4310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113427827665, "dur":30412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1660113427858084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113427858113, "dur":104052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1660113427962237, "dur":133947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428096192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113428096209, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428097047, "dur":63380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428160436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113428160450, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428161616, "dur":138112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428299737, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113428299751, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113428300656, "dur":285013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113427823409, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113427823410, "dur":4212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113427827627, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":30, "ts":1660113427827890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113427830486, "dur":23576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":30, "ts":1660113427854107, "dur":107324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113427961438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113427961940, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113427964746, "dur":70448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428035201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113428035213, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428036018, "dur":72714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428108745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113428108760, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428109713, "dur":84254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428193974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113428194018, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428194774, "dur":205318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428400102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113428400116, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113428401235, "dur":184421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113427822310, "dur":887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113427823198, "dur":4460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113427827660, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":31, "ts":1660113427828284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113427830293, "dur":131850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":31, "ts":1660113427962206, "dur":69509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428031720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113428031729, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428032476, "dur":61341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428093829, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113428093849, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428094752, "dur":70995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428165754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113428165768, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428166524, "dur":140861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428307393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113428307407, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113428308381, "dur":277311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113427823510, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113427823511, "dur":4213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113427827726, "dur":164725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113427992458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113427992504, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113427993528, "dur":59523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428053058, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113428053072, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428053728, "dur":97248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428150988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113428151008, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428151990, "dur":2277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428154274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113428154286, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428155144, "dur":60895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428216049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113428216064, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428216989, "dur":143962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428360960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113428360973, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/KID/AR-VR/Unity_VR_VRSteam_20220810/Unity_VR_VRSteam_20220810_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113428361968, "dur":223676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113428590149, "dur":3258, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1660113428625428, "dur": 926, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113428625112, "dur": 1263, "ph": "X", "name": "Write chrome-trace events", "args": {} },
