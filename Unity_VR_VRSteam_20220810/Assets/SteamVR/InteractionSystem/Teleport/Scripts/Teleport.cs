@@ -10,10 +10,15 @@ using System.Collections;
 
 namespace Valve.VR.InteractionSystem
 {
+	
 	//-------------------------------------------------------------------------
 	public class Teleport : MonoBehaviour
     {
-        public SteamVR_Action_Boolean teleportAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Teleport");
+		[SerializeField, Header("是否顯示教學")]
+		private bool ShowTutoria;
+
+		#region Steam VR 教學資料
+		public SteamVR_Action_Boolean teleportAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Teleport");
 
         public LayerMask traceLayerMask;
 		public LayerMask floorFixupTraceLayerMask;
@@ -137,10 +142,10 @@ namespace Valve.VR.InteractionSystem
 				return _instance;
 			}
 		}
+        #endregion
 
-
-		//-------------------------------------------------
-		void Awake()
+        //-------------------------------------------------
+        void Awake()
         {
             _instance = this;
 
@@ -171,6 +176,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
+		private GameObject goBaseketballCenter;
 		void Start()
         {
             teleportMarkers = GameObject.FindObjectsOfType<TeleportMarkerBase>();
@@ -188,7 +194,9 @@ namespace Valve.VR.InteractionSystem
 
 			CheckForSpawnPoint();
 
-			Invoke( "ShowTeleportHint", 5.0f );
+			if (ShowTutoria) Invoke( "ShowTeleportHint", 5.0f );
+
+			goBaseketballCenter = GameObject.Find("籃球框中心點");
 		}
 
 
@@ -867,6 +875,9 @@ namespace Valve.VR.InteractionSystem
 
 			if ( teleportPoint != null )
 			{
+				//print("兩分");
+				goBaseketballCenter.SendMessage("changeScore", 2);
+
 				teleportPosition = teleportPoint.transform.position;
 
 				//Teleport to a new scene
@@ -881,6 +892,9 @@ namespace Valve.VR.InteractionSystem
 			TeleportArea teleportArea = teleportingToMarker as TeleportArea;
 			if ( teleportArea != null )
 			{
+				//print("三分");
+				goBaseketballCenter.SendMessage("changeScore", 3);
+
 				if ( floorFixupMaximumTraceDistance > 0.0f )
 				{
 					RaycastHit raycastHit;
